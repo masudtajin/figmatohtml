@@ -1,0 +1,37 @@
+//color
+$white:#FFFFFF;
+$gray_1:#3a3a3a;
+$gray_2:#616161;
+$gray_3:#898989;
+$gray_4:#B0B0B0;
+$gray_5:#D8D8D8;
+$primary:#E89F71;
+$Green:#2EC1AC;
+$Red:#E97171;
+
+.white{color: $white;}
+.white-bg{background-color: $white;}
+
+.gray_1{color: $gray_1;}
+.gray_1-bg{background-color: $gray_1;}
+
+.gray_2{color: $gray_2;}
+.gray_2-bg{background-color: $gray_2;}
+
+.gray_3{color: $gray_3;}
+.gray_3-bg{background-color: $gray_3;}
+
+.gray_4{color: $gray_4;}
+.gray_4-bg{background-color: $gray_4;}
+
+.gray_5{color: $gray_5;}
+.gray_5-bg{background-color: $gray_5;}
+
+.primary{color: $primary;}
+.primary-bg{background-color: $primary;}
+
+.Green{color: $Green;}
+.Green-bg{background-color: $Green;}
+
+.Red{color: $Red;}
+.Red-bg{background-color: $Red;}

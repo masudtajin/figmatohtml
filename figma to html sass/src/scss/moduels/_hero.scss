@@ -1,0 +1,108 @@
+.home-hero{
+    background: #FCF8F3;
+    height: 774px;
+    position: relative;
+    padding-top: 140px;
+   
+    .bg-overly{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 67%;
+        background: #F9F1E7;
+        height: 100%;
+    }
+    .owl-inner{
+        height: 623px;
+        padding-top: 60px;
+        .img-content{
+           height: 100%;
+           background-size: cover;
+           background-position: bottom;
+           position: relative;
+           transition: all 300ms ease-in-out;
+           .info-box{
+               position: absolute;
+               bottom: 40px;
+               right: 40px;
+               width: 294px;
+               height: 148px;
+               background: rgba(255, 255, 255, 0.72);
+               backdrop-filter: blur(31px);
+               .seat{
+                   margin: 24px;
+                   h4 {
+                    margin-bottom: 8px;
+                     }
+                   .d-flex {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        
+                        img{
+                            display: block;
+                            width: 24px;
+                        }
+                        
+                    }
+                   
+               }
+            }
+            
+            
+        }
+        .hero-content{
+            position: absolute;
+            width: 494px;
+            height: 553px;
+            left: 0px;
+            top: 0px;
+            padding: 60px;
+            margin-left: 40px;
+            background: rgba(255, 255, 255, 0.72);
+            backdrop-filter: blur(31px);
+            h1{
+                font-size: 56px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 48px;
+            }
+        }
+    }
+    
+    .owl-theme{
+        .owl-nav {
+            position: absolute;
+            top: -24px;
+            right: 118px;
+        }
+        .owl-dots {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            button{
+                padding: 6px !important;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                margin-left: 5px;
+                &.active{
+                    border: 1px solid $primary;
+                    span{
+                        background-color:$primary;
+                    } 
+                }
+
+                span{
+                    width: 11px;
+                    height: 11px;
+                    background-color: $gray_5;
+                    margin: 0;
+                }
+            }
+
+        }
+    }
+    
+}

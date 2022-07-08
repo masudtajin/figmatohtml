@@ -1,0 +1,66 @@
+body{
+    font-family:' Gilroy';
+    line-height: 150%;
+}
+.container{
+    max-width: 1240px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    line-height: 120%;
+}
+h1,h2{
+    font-weight: 700;
+}
+h1,.h1{font: size 56px;}
+h2,.h2{font: size 40px;}
+h3,.h3{font: size 32px;}
+h4,.h4{font: size 28px;}
+h5,.h5{font: size 24px;}
+h6,.h6{font: size 20px;}
+
+.span_1{font-size: 20px; font-weight: 600;}
+.span_2{font-size: 18px; font-weight: 600;}
+.span_3{font-size: 16px; font-weight: 500;}
+.span_4{font-size: 16px; font-weight: 400;}
+.span_5{font-size: 14px; font-weight: 400;}
+
+.btn{
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 12px 35px;
+
+    &.xl-btn {
+        padding: 24px;
+    }
+}
+.owl-pagination {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+    background: 0 0;
+    color: inherit;
+    border: none;
+   
+}
+
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-h{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}

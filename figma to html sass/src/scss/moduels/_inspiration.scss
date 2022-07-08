@@ -1,0 +1,118 @@
+.inspiration{
+    background: #FCF8F3;
+    padding: 88px 0;
+    display: flex;
+    align-items: center;
+    
+    .container{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .text-area {
+            position: absolute;
+            right: 70px;
+           span {
+                margin-bottom: 24px;
+                display: block;
+            }
+            .btn{
+                width: 176px;
+                height: 48px;
+                font-size:16px;
+                font-weight: 600;
+                margin-bottom: 181px;
+                   
+            }
+        }
+    }
+    #inspiration-silder{
+        width: 60%;
+    }
+    .item{
+        position: relative;
+        .content-inspiration{
+            width: 217px;
+            height: 130px;
+            background: rgba(255, 255, 255, 0.72);
+            backdrop-filter: blur(32px);
+            padding: 32px;
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+
+            h2 {
+                margin-bottom: 8px;
+               
+            }
+               
+        }
+        .arrow {
+            width: 48px !important;
+            height: 48px;
+            background: $primary;
+            position: absolute;
+            bottom: 24px;
+            left: 240px;
+        }   
+        
+        
+    }
+
+    .owl-nav{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        .owl-next {
+            right: 296px !important;
+            position: absolute;
+        }
+        .owl-prev {
+            display: flex;
+        }
+        span{
+            width: 48px;
+            height: 48px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px 1px #cec7c7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #E89F71;
+            border-radius: 50%;
+        }  
+    }
+    .owl-dots {
+       display: block !important;
+       position: absolute;
+       left: 776px;;
+       bottom: 35px;
+        button{
+            background: 0 0;
+            color: inherit;
+            border: 1px solid transparent;
+            padding: 6px!important;
+            border-radius: 50%;
+            margin-left: 5px;
+            &.active{
+                border: 1px solid $primary;
+               span{
+                   background:#E89F71 !important;
+               }
+            }
+        }
+
+        span {
+            width: 11px !important;
+            height: 11px !important;
+            margin: 0 !important;
+            background: #D6D6D6;
+        }
+    }
+}
